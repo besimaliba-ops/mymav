@@ -1,0 +1,33 @@
+/.gradle/
+/build/
+**/build/
+/.idea/
+*.iml
+/local.properties
+**/.DS_Store
+**/captures/
+
+# Never commit developer keys, tokens, or keystores
+**/.env
+**/.env.*
+*.jks
+*.keystore
+*.p12
+**/sdk.key
+**/assets/sdk.key
+composeApp/src/androidMain/assets/sdk.key
+composeApp/src/main/assets/sdk.key
+
+# Local build noise
+.kotlin/
+*.log
+hs_err_pid*
+replay_pid*
+
+# scratch / local dumps (not for public clones)
+/media/_*
+/tools/_apkcheck/
+/tools/_man/
+/tools/_shots/
+/build/
+*.apk
